@@ -1,0 +1,46 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Models (large files)
+*.pth
+*.pt
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Datasets (large)
+datasets/raw/
+datasets/processed/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup
+_backup/
+
+# ZIP files
+*.zip
